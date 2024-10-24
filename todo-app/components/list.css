@@ -1,0 +1,17 @@
+/* To-do list styles */
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 12px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.list.done {
+  background-color: #e6f7e6;
+  color: #a0a0a0;
+}
